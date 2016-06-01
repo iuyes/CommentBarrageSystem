@@ -3,7 +3,12 @@ body {
 	font-family: 'Arial';
 }
 
-canvas {
+#cbs_Container {
+	width: 880px;
+}
+
+#cbs_Stage {
 	display: block;
 	background: #000;
+	// background: transparent;
 }

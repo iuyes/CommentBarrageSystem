@@ -7,7 +7,10 @@
 <link rel="stylesheet" href="css/main.css">
 <body>
 
-<canvas id="panel" width="880" height="500"></canvas>
+<div class="cbs_Container" style="position: relative">
+	<canvas id="cbs_Stage" width="880" height="500"></canvas>
+<!-- 	<video width="880" height="500" style="position: absolute;top: 0;z-index: -1" src="video/testVideo.mp4" autoplay loop></video> -->
+</div>
 
 <input type="text" placeholder="弹幕请求间隔（ms）" value="100">
 <button id="send">发送</button>

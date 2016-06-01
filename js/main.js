@@ -60,7 +60,9 @@ $(function(){
 
 	danmu.size = 0;
 
-	var stage = new createjs.Stage('panel');
+	danmu.textMeasure = document.getElementById('cbs_Text');
+
+	var stage = new createjs.Stage('cbs_Stage');
 
 	createjs.Ticker.addEventListener('tick', stage);
 
@@ -103,6 +105,7 @@ $(function(){
 			sendDamu(i1,i2,i3, {posY: 420});
 			sendDamu(i1,i2,i3, {posY: 440});
 			sendDamu(i1,i2,i3, {posY: 460});
+
 		}, time);
 
 //		sendDamu();
